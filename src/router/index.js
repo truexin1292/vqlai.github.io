@@ -8,31 +8,31 @@ import links from '@/components/content/v_links'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'web',
-      component: web
-    },
-    {
-      path: '/web',
-      name: 'web',
-      component: web
-    },
-    {
-      path: '/h5',
-      name: 'h5',
-      component: h5
-    },
-    {
-      path: '/tools',
-      name: 'tools',
-      component: tools
-    },
-    {
-      path: '/links',
-      name: 'links',
-      component: links
-    }
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'web',
+            component: web
+        },
+        {
+            path: '/web',
+            name: 'web',
+            component: web
+        },
+        {
+            path: '/h5',
+            name: 'h5',
+            component: h5
+        },
+        {
+            path: '/tools',
+            name: 'tools',
+            component: tools
+        },
+        {
+            path: '/links',
+            name: 'links',
+            component: links
+        }
+    ]
 })

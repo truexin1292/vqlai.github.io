@@ -2,7 +2,7 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
- /*放在static文件夹下不会被压缩构建，跟放在assets不一样，assets下的文件会被压缩打包构建，建议不要将文件放在static里*/
+/*放在static文件夹下不会被压缩构建，跟放在assets不一样，assets下的文件会被压缩打包构建，建议不要将文件放在static里*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,88 +16,90 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, input {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-weight: normal;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, menu, nav, section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: none;
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* custom */
 a {
-  color: #7e8c8d;
-  text-decoration: none;
-  -webkit-backface-visibility: hidden;
+    color: #7e8c8d;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+    width: 5px;
+    height: 5px;
 }
 
 ::-webkit-scrollbar-track-piece {
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-  height: 5px;
-  background-color: rgba(125, 125, 125, 0.7);
-  -webkit-border-radius: 6px;
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-  width: 5px;
-  background-color: rgba(125, 125, 125, 0.7);
-  -webkit-border-radius: 6px;
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
 }
 
 html, body {
-  width: 100%;
-  color: #ffffff;
+    width: 100%;
+    color: #ffffff;
 }
 
 body {
-  -webkit-text-size-adjust: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #ffffff;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: #ffffff;
 }
+
 /* @media screen and (min-width: 680px) {
     body {
       width: 680px;
       position: relative;
       margin: 0 auto;
     }
-    
+
     #app {
       width: 680px;
     }
@@ -106,6 +108,10 @@ body {
       margin: 0 auto;
     }
 
-    
+
   }*/
-.text_hidden{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.text_hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

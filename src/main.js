@@ -30,12 +30,12 @@ Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */
 new Vue({
-  // 最后效果将会替换页面中id为app的div元素
-  el: '#app',
-  // 使用路由,挂载到App这个虚拟DOM组件上
-  router,
-  // 告知页面这个组件用这样的标签来包裹着,并且使用它
-  template: '<App/>',
-  // 告知当前页面想使用App这个组件
-  components: { App }
+    // 最后效果将会替换页面中id为app的div元素
+    el: '#app',
+    // 使用路由,挂载到App这个虚拟DOM组件上
+    router,
+    // 告知页面这个组件用这样的标签来包裹着,并且使用它
+    template: '<App/>',
+    // 告知当前页面想使用App这个组件
+    components: {App}
 })

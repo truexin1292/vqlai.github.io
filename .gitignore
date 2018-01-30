@@ -2,3 +2,10 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+.idea/dbnavigator.xml
+.idea/inspectionProfiles/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/vqlai.github.io.iml
+.idea/workspace.xml
+yarn.lock
