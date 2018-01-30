@@ -6,7 +6,7 @@
             <div class="v_banner">
                 <div class="v_headpic"><img src="./headpic.jpg" alt=""></div>
                 <div class="v_baseinfo">
-                    <h5 @click="sayHello">Hello</h5>
+                    <h5 @click="sayHello">Hello Truexin</h5>
                     <h1>{{baseInfo.name}}</h1>
                     <h6 class="text_hidden">{{baseInfo.job}}</h6>
                     <ul>
